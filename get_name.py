@@ -1,6 +1,9 @@
-def get_your_name(lastname, firstname, secondname):
-    my_name = lastname, firstname, secondname
-    return (my_name)
+def full_name(lastname, firstname, secondname):
+#     lastname = 'Ivanov'
+#     firstname = 'Ivan'
+#     secondname = 'Ivanovich'
+    result = lastname+" "+firstname+" "+secondname
+    return(result)
 
 
-print get_your_name('Dovzhich', 'Tatyana', 'Alecksandrovna')
+print full_name ('Dovzhich', 'Lyudmila', 'Stephanovna')
